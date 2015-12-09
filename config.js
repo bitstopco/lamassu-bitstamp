@@ -2,9 +2,9 @@
 
 var _ = require('lodash');
 
-exports.NAME = 'Bitstamp';
-exports.SUPPORTED_MODULES = ['ticker', 'trader'];
-exports.API_ENDPOINT = 'https://www.bitstamp.net/api/';
+exports.NAME = 'Coinbase';
+exports.SUPPORTED_MODULES = ['ticker'];
+exports.API_ENDPOINT = 'https://api.coinbase.com/v2/prices/';
 
 
 exports.SATOSHI_FACTOR = 1e8;
